@@ -35,7 +35,6 @@ const alumni = [
     allUseJavaScript(alumni) // returns true
     ```
 ---
-**Bonus Question**
 
 2. Write a function named `oldEnough` that takes an array of objects and returns a boolean if for every object, the age is greater than 20.
     

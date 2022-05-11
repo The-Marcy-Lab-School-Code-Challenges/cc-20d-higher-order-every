@@ -16,45 +16,29 @@
 
 ```jsx
 const alumni = [
-{name:'Jarrit', job:'TPT',language:'JavaScript', age:23}, 
+{name:'Jarrit', job:'TPT',language:'JavaScript', age:20}, 
 {name:'Stephanie', job:'JPMorgan',language:'JavaScript', age:24}, 
 {name:'Devonte', job:'WW',language:'JavaScript', age:23}, 
 {name:'Enmanuel', job:'Asana',language:'JavaScript', age:23},
 {name:'Shemar', job:'SquareSpace',language:'JavaScript', age:23},
-{name:'Cielo', job:'NYT',language:'JavaScript', age:22},
+{name:'Cielo', job:'NYT',language:'JavaScript', age:19},
 {name:'Carmen', job:'Marcy Lab School',language:'JavaScript', age:21},
 {name:'Itzel', job:'Marcy Lab School',language:'JavaScript', age:22},
 {name:'Ray', job:'Square Space',language:'JavaScript', age:21},
-{name:'Jan', job:'Square Space',language:'JavaScript', age:22},
+{name:'Jan', job:'Square Space',language:'JavaScript', age:18},
 {name:'Uzma', job:'Time Share',language:'JavaScript', age:22}]
 ```
 
-
-1. Write a function named `orderedAlumni` that takes an array of objects and sorts the objects by the age of the alumni from oldest to youngest. 
+1. Write a function named allUseJavaScript that takes an array of objects and returns a boolean if for every object, the language property is 'JavaScript'.
     
     ```jsx
-    orderedAlumni(alumni) // returns [
-    { name: 'Devonte', job: 'WW', language: 'JavaScript', age: 23 },
-    { name: 'Shemar', job: 'SquareSpace', language: 'JavaScript', age: 23 },
-    { name: 'Jarrit', job: 'TPT', language: 'JavaScript', age: 22 },
-    { name: 'Stephanie', job: 'JPMorgan', language: 'JavaScript', age: 21 },
-    { name: 'Enmanuel', job: 'Asana', language: 'JavaScript', age: 21 },
-    { name: 'Cielo', job: 'NYT', language: 'JavaScript', age: 21 }
-    ]
+    allUseJavaScript(alumni) // returns true
     ```
 ---
 **Bonus Question**
 
-2. Write a function named `alphabeticalOrder` that takes an array of objects and sorts the objects by the name of the alumni in alphabetical order.
+2. Write a function named `oldEnough` that takes an array of objects and returns a boolean if for every object, the age is greater than 20.
     
     ```jsx
-    alphabeticalOrder(alumni)//returns [
-     { name: 'Carmen', job: 'Marcy Lab School', language: 'JavaScript', age: 21 },
-     { name: 'Cielo', job: 'NYT', language: 'JavaScript', age: 21 },
-     { name: 'Devonte', job: 'WW', language: 'JavaScript', age: 23 },
-     { name: 'Enmanuel', job: 'Asana', language: 'JavaScript', age: 21 },
-     { name: 'Itzel', job: 'Marcy Lab School', language: 'JavaScript', age: 22 },
-     { name: 'Jarrit', job: 'TPT', language: 'JavaScript', age: 22 },
-     ...
-     ]
+    oldEnough(alumni) // returns false
     ```
